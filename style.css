@@ -1,0 +1,48 @@
+/* start  font */
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* end  font */
+/* start  css reset */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100vh;
+  font-size: 18px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+/* end  css reset */
+/* start  general */
+.bg-color-default {
+  background: #f4f9ff;
+  min-height: 380px;
+}
+.bg-color-blue {
+  color: #fff;
+  background: #2d2c2d;
+}
+.h1-title {
+  font-weight: 700;
+  font-size: 3rem;
+}
+.p-subtitle {
+  font-size: 1rem;
+  font-weight: 400;
+}
+.btn-default {
+  font-size: 16px;
+  height: 40px;
+}
+.footer {
+  min-height: 50px;
+}
+.container {
+  max-width: 1400px;
+}
+/* end  general */
